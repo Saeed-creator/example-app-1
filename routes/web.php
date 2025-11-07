@@ -13,9 +13,9 @@ use App\Http\Controllers\UserController;
 |
 */
 
-// Route::get('/welcome', function () {
-//     return view('welcome');
-// });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 
 // Route::get('/MyCollageName/laravel', function () {
 //     return "ASPU";
